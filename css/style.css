@@ -1,0 +1,155 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.logo img{
+	width: 178px;
+}
+.nav{
+/*	background: blue;*/
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+/*	background: pink;*/
+}
+.nav li{
+	margin-left: 40px;
+}
+.nav li a{
+	color: #1f1f1f;
+	font-weight: bold;
+	text-decoration: none;
+}
+.nav li a:hover{
+	opacity: 0.8;
+}
+/*header*/
+.content-banner{
+	margin-bottom: 15px;
+}
+.container-banner h1{
+	font-size: 44px;
+}
+.line{
+	height: 3px;
+	width: 50px;
+	background: #b7b3b3;
+	margin: 28px 0;
+}
+.content-banner p{
+	font-size: 20px;
+	margin-bottom: 54px;
+}
+.btn{
+/*    background: #6C63FF;*/
+	padding: 15px 40px;
+	text-decoration: none;
+}
+.btn-primary{
+	background: #6C63FF;
+	border: 1.5px solid #353434;
+	color: white;
+}
+.btn-outline{
+	border: 1.5px solid #B7B3B3;
+	color: #00000
+}
+.banner img{
+	width: 509px;
+}
+/*banner*/
+.how-it-works{
+	padding: 100px 0;
+}
+.title{
+	text-align: center;
+}
+.title h1{
+	font-size: 44px;
+}
+.title p{
+	font-size: 20px;
+}
+.title .line{
+	margin: 28px auto;
+}
+/*title how it works*/
+.app{
+	text-align: center;
+/*	background: red;*/
+}
+.feature-img img{
+	width: 207px;
+}
+.app h1{
+	font-size: 27px;
+	margin: 32px 0 12px;
+}
+.app p{
+	font-size: 14px;
+}
+/*app*/
+.banner2{
+	background: #F0F0F0;
+	height: 580px;
+	display:flex;
+    align-items:center;
+	justify-content: flex-end;
+}
+.container-r h1{
+	font-size: 44px;
+}
+.line{
+	height: 3px;
+	width: 50px;
+	background: #b7b3b3;
+	margin: 28px 0;
+}
+.content-r p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.content-r a{
+	text-decoration: none;
+	font-weight: 500;
+}
+.banner2 img{
+	width: 490px;
+/*	margin-bottom: 50px;*/
+	position: relative;
+}
+.circle{
+	left: -80px;
+	top:-50px;
+	width: 221px;
+	height:221px;
+	background:#DBDBDB;
+	border-radius: 50%;
+	position: absolute
+}
+.left{
+	position: relative;
+}
+/*banner2*/
+.footer p{
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #B7B3B3;
+	font-weight: 500;
+
+
+}
+.footer img{
+	width: 160px;
+	margin-top: 10px;
+	
+}
+
+
